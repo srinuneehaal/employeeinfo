@@ -1,0 +1,33 @@
+2024-03-28 20:46:43,065 [INFO] com.employee.app.EmployeeInfoApplication [main] Starting EmployeeInfoApplication using Java 17.0.5 with PID 78856 (D:\STS W_Space\employee-info\target\classes started by srinu in D:\STS W_Space\employee-info)
+2024-03-28 20:46:43,066 [INFO] com.employee.app.EmployeeInfoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-28 20:46:43,560 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-28 20:46:43,601 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-03-28 20:46:43,978 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-03-28 20:46:43,988 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-03-28 20:46:43,990 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-28 20:46:44,047 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-03-28 20:46:44,047 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 948 ms
+2024-03-28 20:46:44,158 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-28 20:46:44,220 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-28 20:46:44,252 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-03-28 20:46:44,454 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-28 20:46:44,477 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-28 20:46:44,703 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36a58466
+2024-03-28 20:46:44,704 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-28 20:46:45,534 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-28 20:46:45,695 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-28 20:46:45,979 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-28 20:46:46,279 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-03-28 20:46:46,287 [INFO] com.employee.app.EmployeeInfoApplication [main] Started EmployeeInfoApplication in 3.506 seconds (process running for 4.076)
+2024-03-28 20:47:29,356 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-28 20:47:29,356 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-28 20:47:29,357 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-28 20:47:29,465 [INFO] com.employee.app.service.EmployeeService [http-nio-8080-exec-1]  saveEmployeeDetails method employee EmployeeDTO(empID=120, empFirstName=Srinivas, empLastName=Palli, empEmail=srinivasp@gmail.com, phoneNumbers=[PhoneNumberDTO(phoneID=0, phoneNumber=9112939933), PhoneNumberDTO(phoneID=0, phoneNumber=9112939939)], empDateOfJoin=12/03/2023, empSalary=122333.56)
+2024-03-28 21:07:34,891 [INFO] com.employee.app.service.EmployeeService [http-nio-8080-exec-6]  getEmployeeDetailsByIDAndEmail method employeeID :120 and emailID :srinivasp@gmail.com 
+2024-03-28 21:09:33,125 [INFO] com.employee.app.service.EmployeeService [http-nio-8080-exec-9]  getEmployeeDetailsByIDAndEmail method employeeID :null and emailID :srinivasp@gmail.com 
+2024-03-28 21:12:11,273 [INFO] com.employee.app.service.EmployeeService [http-nio-8080-exec-1]  getEmployeeDetailsByIDAndEmail method employeeID :120 and emailID :null 
+2024-03-28 21:12:44,954 [INFO] com.employee.app.service.EmployeeService [http-nio-8080-exec-2]  getEmployeeDetailsByIDAndEmail method employeeID :null and emailID :srinivasp@gmail.com 
+2024-03-28 21:22:13,644 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(46)-127.0.0.1] Application shutdown requested.
+2024-03-28 21:22:13,706 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(46)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-28 21:22:13,721 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(46)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2024-03-28 21:22:13,727 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(46)-127.0.0.1] HikariPool-1 - Shutdown completed.
